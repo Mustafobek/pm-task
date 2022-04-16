@@ -1,11 +1,10 @@
 # pm-task
 
-# build command
-npm run build
+# build command - npm run build
 
-# start command
-npm start
+# start command - npm start
 
-// задействован модуль "cluster"
-// не понял суть транспорта
+# //Комментарии
+// задействован модуль "cluster" <br>
+// недопонял суть транспорта (this.transport, startTransport()) <br>
 // я старался)
