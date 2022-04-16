@@ -76,7 +76,8 @@ class Service implements IService {
         createServer(
             (req, res) => res.end('Server response')
         ).listen(
-            () => console.log('Server is started on ' + process.pid)
+            5000,
+            () => console.log('Server is started on PORT: 5000, PID:' + process.pid)
         )
     }
 
